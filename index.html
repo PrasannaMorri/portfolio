@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Morri Prasanna | AI/ML Engineer</title>
+
+<meta name="description"
+content="Morri Prasanna — AI/ML Engineer and Software Engineer portfolio.">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+html{scroll-behavior:smooth}
+
+body{
+  margin:0;
+  background:#fff;
+  color:#0f172a;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+
+.glass{
+  background:rgba(255,255,255,.72);
+  backdrop-filter:blur(20px);
+  -webkit-backdrop-filter:blur(20px);
+  border:1px solid rgba(15,23,42,.08);
+  box-shadow:0 20px 60px rgba(15,23,42,.06);
+}
+
+.glass:hover{
+  border-color:rgba(15,23,42,.15);
+  box-shadow:0 25px 70px rgba(15,23,42,.09);
+}
+
+.grid-bg{
+  background-image:
+  linear-gradient(rgba(15,23,42,.035) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(15,23,42,.035) 1px,transparent 1px);
+  background-size:42px 42px;
+}
+
+.reveal{
+  opacity:0;
+  transform:translateY(24px);
+  transition:opacity .8s ease,transform .8s ease;
+}
+
+.reveal.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+.card{
+  transition:transform .35s ease,box-shadow .35s ease;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+}
+
+a{
+  transition:all .25s ease;
+}
+
+::selection{
+  background:#0f172a;
+  color:#fff;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<header class="fixed top-4 left-4 right-4 z-50">
+
+<nav class="glass max-w-6xl mx-auto rounded-2xl px-5 md:px-7 py-4 flex items-center justify-between">
+
+<a href="#home"
+class="text-xl md:text-2xl font-bold tracking-tight">
+MP<span class="text-slate-400">.</span>
+</a>
+
+<div class="hidden lg:flex items-center gap-7 text-sm text-slate-600">
+
+<a href="#about" class="hover:text-slate-950">About</a>
+<a href="#skills" class="hover:text-slate-950">Skills</a>
+<a href="#projects" class="hover:text-slate-950">Projects</a>
+<a href="#experience" class="hover:text-slate-950">Experience</a>
+<a href="#credentials" class="hover:text-slate-950">Credentials</a>
+<a href="#contact" class="hover:text-slate-950">Contact</a>
+
+</div>
+
+<a href="resume.pdf"
+target="_blank"
+class="bg-slate-950 text-white px-4 md:px-5 py-2.5 rounded-xl text-sm font-semibold hover:bg-slate-800">
+View Resume
+</a>
+
+</nav>
+</header>
+
+
+<!-- HERO -->
+<section id="home"
+class="min-h-screen grid-bg flex items-center px-6 pt-32 pb-20">
+
+<div class="max-w-6xl mx-auto w-full grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+
+<div class="reveal">
+
+<p class="text-xs tracking-[.28em] uppercase text-slate-400 font-semibold">
+AI / ML / SOFTWARE ENGINEERING
+</p>
+
+<h1 class="text-6xl sm:text-7xl lg:text-8xl font-semibold tracking-[-.06em] leading-[.88] mt-6">
+Morri
+<br>
+<span class="text-slate-400">Prasanna.</span>
+</h1>
+
+<h2 class="text-2xl md:text-3xl font-semibold mt-8">
+Aspiring AI/ML Engineer
+</h2>
+
+<p class="text-lg leading-8 text-slate-600 max-w-xl mt-5">
+Computer Science Engineering student specializing in Artificial Intelligence
+and Machine Learning with hands-on experience in Python, Machine Learning,
+Deep Learning, Generative AI, NLP, LLM fundamentals and Data Analytics.
+</p>
+
+<div class="flex flex-wrap gap-4 mt-8">
+
+<a href="#projects"
+class="bg-slate-950 text-white px-6 py-3.5 rounded-xl font-semibold hover:bg-slate-800">
+Explore Projects
+</a>
+
+<a href="resume.pdf"
+target="_blank"
+class="glass px-6 py-3.5 rounded-xl font-semibold hover:bg-white">
+ATS Resume
+</a>
+
+</div>
+
+<div class="flex flex-wrap gap-3 mt-8 text-sm text-slate-500">
+<span>Hyderabad, Telangana</span>
+<span>•</span>
+<span>Python</span>
+<span>•</span>
+<span>Machine Learning</span>
+<span>•</span>
+<span>Generative AI</span>
+</div>
+
+</div>
+
+
+<!-- PROFILE PHOTO -->
+<div class="reveal">
+
+<div class="glass rounded-[2rem] p-3 max-w-md mx-auto">
+
+<img
+src="profile.jpg"
+alt="Morri Prasanna"
+class="w-full aspect-[4/5] object-cover rounded-[1.5rem]"
+>
+
+</div>
+
+<div class="glass rounded-2xl px-6 py-4 w-fit mx-auto -mt-6 relative">
+
+<p class="text-xs uppercase tracking-[.2em] text-slate-400">
+Current Focus
+</p>
+
+<p class="font-semibold mt-1">
+AI/ML • Intelligent Systems • Software
+</p>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="py-28 px-6">
+
+<div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 lg:gap-24">
+
+<div class="reveal">
+
+<p class="text-xs uppercase tracking-[.25em] text-slate-400">
+01 / About
+</p>
+
+<h2 class="text-5xl md:text-6xl font-semibold tracking-tight mt-5 leading-tight">
+Turning curiosity into
+<span class="text-slate-400">practical intelligence.</span>
+</h2>
+
+</div>
+
+<div class="reveal">
+
+<p class="text-xl leading-9 text-slate-700">
+I am a Computer Science Engineering student specializing in Artificial
+Intelligence and Machine Learning, passionate about building practical
+intelligent systems and continuously strengthening my technical skills.
+</p>
+
+<p class="text-slate-500 leading-8 mt-6">
+My hands-on work includes image classification, adversarial attack detection,
+deepfake generation and detection, dataset preprocessing, model evaluation,
+AI workflow optimization and Generative AI applications.
+</p>
+
+<p class="text-slate-500 leading-8 mt-6">
+I enjoy solving problems using Python and modern AI/ML technologies while
+working effectively in collaborative environments through communication,
+teamwork and project coordination.
+</p>
+
+</div>
+</div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="py-28 px-6 bg-slate-50">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="reveal mb-14">
+
+<p class="text-xs uppercase tracking-[.25em] text-slate-400">
+02 / Skills
+</p>
+
+<h2 class="text-5xl md:text-6xl font-semibold tracking-tight mt-4">
+Technical Toolkit
+</h2>
+
+<p class="text-slate-500 mt-5 max-w-2xl leading-7">
+A practical foundation across programming, machine learning,
+Generative AI, computer vision, analytics and software development.
+</p>
+
+</div>
+
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-sm text-slate-400">01</p>
+<h3 class="text-xl font-semibold mt-3">Programming</h3>
+
+<div class="flex flex-wrap gap-2 mt-6">
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Python</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">SQL</span>
+</div>
+</div>
+
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-sm text-slate-400">02</p>
+<h3 class="text-xl font-semibold mt-3">AI / Machine Learning</h3>
+
+<div class="flex flex-wrap gap-2 mt-6">
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Machine Learning</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Deep Learning</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Generative AI</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">NLP</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">LLMs</span>
+</div>
+</div>
+
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-sm text-slate-400">03</p>
+<h3 class="text-xl font-semibold mt-3">Libraries & Frameworks</h3>
+
+<div class="flex flex-wrap gap-2 mt-6">
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">TensorFlow</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">OpenCV</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">NumPy</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Pandas</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">CNN</span>
+</div>
+</div>
+
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-sm text-slate-400">04</p>
+<h3 class="text-xl font-semibold mt-3">AI Applications</h3>
+
+<div class="flex flex-wrap gap-2 mt-6">
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Image Classification</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Model Evaluation</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Data Preprocessing</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Data Analysis</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">AI Workflow Optimization</span>
+</div>
+</div>
+
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-sm text-slate-400">05</p>
+<h3 class="text-xl font-semibold mt-3">Tools</h3>
+
+<div class="flex flex-wrap gap-2 mt-6">
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Git</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">GitHub</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Google Colab</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">MS Excel</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Google Sheets</span>
+</div>
+</div>
+
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-sm text-slate-400">06</p>
+<h3 class="text-xl font-semibold mt-3">Core Strengths</h3>
+
+<div class="flex flex-wrap gap-2 mt-6">
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">OOPs</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Problem Solving</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Teamwork</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Communication</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Collaboration</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Project Coordination</span>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="py-28 px-6">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="reveal mb-14">
+
+<p class="text-xs uppercase tracking-[.25em] text-slate-400">
+03 / Projects
+</p>
+
+<h2 class="text-5xl md:text-6xl font-semibold tracking-tight mt-4">
+Selected Work
+</h2>
+
+</div>
+
+
+<!-- QUERYMIND -->
+<article class="glass rounded-[2rem] p-8 md:p-12 card reveal mb-7">
+
+<div class="flex flex-col lg:flex-row lg:justify-between gap-8">
+
+<div class="max-w-4xl">
+
+<p class="text-xs uppercase tracking-[.2em] text-slate-400">
+Project 01 / Generative AI
+</p>
+
+<h3 class="text-3xl md:text-4xl font-semibold mt-5">
+QueryMind
+</h3>
+
+<p class="text-lg text-slate-500 mt-2">
+General Purpose Retrieval-Augmented Generation System
+</p>
+
+<p class="text-slate-600 leading-8 mt-6">
+QueryMind is a document intelligence system that allows users to upload
+documents and ask questions in natural language. It combines sparse BM25
+retrieval, dense ChromaDB retrieval and Reciprocal Rank Fusion for hybrid
+retrieval, followed by LLM-powered answer generation with source citations.
+</p>
+
+<div class="flex flex-wrap gap-2 mt-6">
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">RAG</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">BM25</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">ChromaDB</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">RRF</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">FastAPI</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Streamlit</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">PostgreSQL</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Redis</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">JWT</span>
+</div>
+
+</div>
+
+<div class="flex items-end">
+
+<a href="querymind-rag.zip"
+download
+class="bg-slate-950 text-white px-6 py-3 rounded-xl font-semibold whitespace-nowrap hover:bg-slate-800">
+Download Project ZIP
+</a>
+
+</div>
+
+</div>
+
+</article>
+
+
+<!-- ADVERSARIAL -->
+<article class="glass rounded-[2rem] p-8 md:p-12 card reveal mb-7">
+
+<p class="text-xs uppercase tracking-[.2em] text-slate-400">
+Project 02 / Deep Learning
+</p>
+
+<h3 class="text-3xl md:text-4xl font-semibold mt-5 max-w-4xl">
+Adversarial Attack Detection and Robust Model Training for Image Classification
+</h3>
+
+<p class="text-slate-600 leading-8 mt-6 max-w-4xl">
+Led a team focused on developing a robust image classification approach
+against adversarial attacks. The project involved image preprocessing,
+deep learning model development, evaluation and strengthening model
+robustness for secure AI applications.
+</p>
+
+<div class="flex flex-wrap gap-2 mt-6">
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Python</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">TensorFlow</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">CNN</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Deep Learning</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">NumPy</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Pandas</span>
+</div>
+
+<a
+href="https://colab.research.google.com/drive/1eGjfxPeFQMG9m7RJHfowVsxQ97Fu9k?usp=sharing"
+target="_blank"
+rel="noopener"
+class="inline-block mt-8 bg-slate-950 text-white px-6 py-3 rounded-xl font-semibold hover:bg-slate-800">
+Open Google Colab
+</a>
+
+</article>
+
+
+<!-- DEEPFAKE -->
+<article class="glass rounded-[2rem] p-8 md:p-12 card reveal">
+
+<p class="text-xs uppercase tracking-[.2em] text-slate-400">
+Project 03 / Computer Vision
+</p>
+
+<h3 class="text-3xl md:text-4xl font-semibold mt-5 max-w-4xl">
+Deepfake Media Generation and Detection in the Generative AI Era
+</h3>
+
+<p class="text-slate-600 leading-8 mt-6 max-w-4xl">
+Led a Generative AI and Deep Learning project focused on synthetic media
+generation and detection. The work included media analysis, content
+verification, dataset handling, preprocessing, classification and model
+evaluation.
+</p>
+
+<div class="flex flex-wrap gap-2 mt-6">
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Python</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">OpenCV</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">TensorFlow</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">Generative AI</span>
+<span class="bg-slate-100 px-3 py-2 rounded-lg text-sm">CNN</span>
+</div>
+
+</article>
+
+</div>
+</section>
+
+
+<!-- EXPERIENCE -->
+<section id="experience" class="py-28 px-6 bg-slate-50">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="reveal">
+
+<p class="text-xs uppercase tracking-[.25em] text-slate-400">
+04 / Experience
+</p>
+
+<h2 class="text-5xl md:text-6xl font-semibold tracking-tight mt-4">
+Generative AI Internship
+</h2>
+
+</div>
+
+<div class="glass rounded-[2rem] p-8 md:p-12 mt-12 reveal">
+
+<div class="flex flex-col md:flex-row md:justify-between gap-5">
+
+<div>
+
+<p class="text-sm uppercase tracking-[.18em] text-slate-400">
+August 2025
+</p>
+
+<h3 class="text-3xl font-semibold mt-3">
+Generative AI Intern
+</h3>
+
+<p class="text-slate-500 mt-2">
+Prodigy Infotech
+</p>
+
+</div>
+
+<a
+href="internship-certificate.pdf"
+target="_blank"
+class="h-fit bg-slate-950 text-white px-5 py-3 rounded-xl font-semibold">
+View Internship Certificate
+</a>
+
+</div>
+
+<ul class="mt-10 space-y-5 text-slate-600 leading-8">
+
+<li>
+Worked on Generative AI concepts, AI applications and intelligent workflow
+solutions.
+</li>
+
+<li>
+Contributed to dataset processing, analysis and AI workflow optimization.
+</li>
+
+<li>
+Gained practical exposure to model development and model evaluation.
+</li>
+
+<li>
+Strengthened analytical thinking, problem solving, teamwork and communication.
+</li>
+
+<li>
+Received recognition through a Letter of Recommendation for technical skills,
+initiative, problem-solving ability and aptitude for learning.
+</li>
+
+</ul>
+
+</div>
+</div>
+</section>
+
+
+<!-- EDUCATION -->
+<section id="education" class="py-28 px-6">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="reveal mb-14">
+
+<p class="text-xs uppercase tracking-[.25em] text-slate-400">
+05 / Education
+</p>
+
+<h2 class="text-5xl md:text-6xl font-semibold tracking-tight mt-4">
+Academic Journey
+</h2>
+
+</div>
+
+<div class="grid md:grid-cols-2 gap-6">
+
+<div class="glass rounded-3xl p-8 card reveal">
+
+<p class="text-sm text-slate-400">
+2022 — 2026
+</p>
+
+<h3 class="text-2xl font-semibold mt-5">
+DRK Institute of Science and Technology
+</h3>
+
+<p class="text-slate-500 mt-3 leading-7">
+B.Tech — Computer Science Engineering
+<br>
+Specialization: Artificial Intelligence & Machine Learning
+</p>
+
+<div class="mt-8">
+<p class="text-4xl font-semibold">7.81</p>
+<p class="text-sm text-slate-400 mt-1">CGPA</p>
+</div>
+
+</div>
+
+
+<div class="glass rounded-3xl p-8 card reveal">
+
+<p class="text-sm text-slate-400">
+2020 — 2022
+</p>
+
+<h3 class="text-2xl font-semibold mt-5">
+Telangana State Residential Junior College
+</h3>
+
+<p class="text-slate-500 mt-3 leading-7">
+Intermediate — MPC
+</p>
+
+<div class="mt-8">
+<p class="text-4xl font-semibold">8.65</p>
+<p class="text-sm text-slate-400 mt-1">CGPA</p>
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- CREDENTIALS -->
+<section id="credentials" class="py-28 px-6 bg-slate-50">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="reveal mb-14">
+
+<p class="text-xs uppercase tracking-[.25em] text-slate-400">
+06 / Credentials
+</p>
+
+<h2 class="text-5xl md:text-6xl font-semibold tracking-tight mt-4">
+Certificates & Recognition
+</h2>
+
+<p class="text-slate-500 mt-5 max-w-2xl leading-7">
+Professional learning, internship credentials and academic recognition.
+</p>
+
+</div>
+
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-xs text-slate-400 uppercase tracking-widest">
+Certificate
+</p>
+<h3 class="font-semibold text-lg mt-4">
+Generative AI Internship
+</h3>
+<p class="text-slate-500 text-sm mt-2">
+Prodigy Infotech
+</p>
+<a href="internship-certificate.pdf"
+target="_blank"
+class="inline-block mt-5 font-semibold text-sm">
+View Certificate →
+</a>
+</div>
+
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-xs text-slate-400 uppercase tracking-widest">
+Job Simulation
+</p>
+<h3 class="font-semibold text-lg mt-4">
+Data Generative AI for Data Analytics Job Simulation
+</h3>
+<p class="text-slate-500 text-sm mt-2">
+Forage
+</p>
+</div>
+
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-xs text-slate-400 uppercase tracking-widest">
+Job Simulation
+</p>
+<h3 class="font-semibold text-lg mt-4">
+Deloitte Data Analytics Job Simulation
+</h3>
+<p class="text-slate-500 text-sm mt-2">
+Forage
+</p>
+</div>
+
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-xs text-slate-400 uppercase tracking-widest">
+Job Simulation
+</p>
+<h3 class="font-semibold text-lg mt-4">
+AI & Machine Learning Job Simulation
+</h3>
+<p class="text-slate-500 text-sm mt-2">
+Forage — THUB
+</p>
+</div>
+
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-xs text-slate-400 uppercase tracking-widest">
+Learning
+</p>
+<h3 class="font-semibold text-lg mt-4">
+Introduction to Generative AI Studio
+</h3>
+<p class="text-slate-500 text-sm mt-2">
+Simplilearn SkillUp
+</p>
+</div>
+
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-xs text-slate-400 uppercase tracking-widest">
+Recognition
+</p>
+<h3 class="font-semibold text-lg mt-4">
+Letter of Recommendation
+</h3>
+<p class="text-slate-500 text-sm mt-2 leading-6">
+Recognition for technical skills, initiative, problem solving and aptitude
+for learning.
+</p>
+</div>
+
+
+<div class="glass rounded-3xl p-7 card reveal">
+<p class="text-xs text-slate-400 uppercase tracking-widest">
+Resume
+</p>
+<h3 class="font-semibold text-lg mt-4">
+ATS Resume
+</h3>
+<p class="text-slate-500 text-sm mt-2">
+Professional resume for recruitment and job applications.
+</p>
+<a href="resume.pdf"
+target="_blank"
+class="inline-block mt-5 font-semibold text-sm">
+Open Resume →
+</a>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="py-28 px-6">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="glass rounded-[2rem] p-8 md:p-12 lg:p-16 reveal">
+
+<p class="text-xs uppercase tracking-[.25em] text-slate-400">
+07 / Contact
+</p>
+
+<h2 class="text-5xl md:text-7xl font-semibold tracking-[-.04em] leading-tight mt-6">
+Let's build
+<br>
+<span class="text-slate-400">what's next.</span>
+</h2>
+
+<p class="text-lg text-slate-600 leading-8 max-w-2xl mt-8">
+Open to AI/ML Engineer, Machine Learning Engineer, AI Engineer and
+Software Engineer opportunities where I can contribute through practical
+project experience, problem solving and continuous learning.
+</p>
+
+
+<div class="mt-10 max-w-2xl">
+
+<a
+href="mailto:prasannamorri72@gmail.com"
+class="flex justify-between items-center border-b border-slate-200 py-5 font-semibold hover:px-2">
+
+<span>Email</span>
+<span class="text-slate-500">prasannamorri72@gmail.com</span>
+
+</a>
+
+
+<a
+href="tel:+919502635394"
+class="flex justify-between items-center border-b border-slate-200 py-5 font-semibold hover:px-2">
+
+<span>Phone</span>
+<span class="text-slate-500">+91 9502635394</span>
+
+</a>
+
+
+<a
+href="https://www.linkedin.com/in/prasanna-morri-502076353"
+target="_blank"
+rel="noopener"
+class="flex justify-between items-center border-b border-slate-200 py-5 font-semibold hover:px-2">
+
+<span>LinkedIn</span>
+<span class="text-slate-500">View Profile ↗</span>
+
+</a>
+
+</div>
+
+</div>
+
+
+<footer class="flex flex-col md:flex-row justify-between gap-4 py-8 text-sm text-slate-400">
+
+<span>© 2026 Morri Prasanna</span>
+
+<span>AI/ML Engineer • Software Engineer</span>
+
+</footer>
+
+</div>
+</section>
+
+
+<script>
+
+const observer = new IntersectionObserver(
+(entries)=>{
+entries.forEach((entry)=>{
+if(entry.isIntersecting){
+entry.target.classList.add("show");
+}
+});
+},
+{threshold:.12}
+);
+
+document.querySelectorAll(".reveal").forEach(
+(element)=>observer.observe(element)
+);
+
+</script>
+
+</body>
+</html>
